@@ -49,7 +49,7 @@ graphql-java works by running data fetchers over objects for all that informatio
 Our challenge is to take these 3 sources of information and present them as one unified type.
 
 We could specify data fetchers on the ``cost`` and ``tax`` fields that does those calculations but this is more to maintain and likely to lead to
-`N+1 performance problems`.
+[N+1 performance problems][N+1 performance problems].
 
 We would be better to do all this work in the ``Query.products`` data fetcher and create a unified view of the data at that point.
 
@@ -317,3 +317,5 @@ the following representation at runtime :
         );
 
 ```
+
+[N+1 performance problems]: https://stackoverflow.com/a/97253/14312712
