@@ -20,4 +20,3 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build documentation
         run: yarn build
-
