@@ -20,25 +20,4 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build documentation
         run: yarn build
-  deploy-documentation:
-    needs: test-page-build
-    name: Deploy Documentation to GitHub Pages
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: yarn
-          cache-dependency-path: "./yarn.lock"
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Build documentation
-        run: yarn build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          user_name: QubitPi
-          user_email: jack20191124@proton.me
+
