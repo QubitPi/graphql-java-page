@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[716],{7446:function(e){e.exports=JSON.parse('{"permalink":"/graphql-java-page/blog/page/3","page":3,"postsPerPage":5,"totalPages":3,"totalCount":15,"previousPage":"/graphql-java-page/blog/page/2","nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
