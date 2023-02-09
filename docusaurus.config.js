@@ -9,7 +9,7 @@ const config = {
   title: 'GraphQL Java',
   tagline: 'The Java implementation of GraphQL',
   url: 'https://QubitPi.github.io/',
-  baseUrl: '/graphql-java-page',
+  baseUrl: '/graphql-java-page/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
