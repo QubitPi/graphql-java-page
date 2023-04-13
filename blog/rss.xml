@@ -4,9 +4,17 @@
         <title>GraphQL Java Blog</title>
         <link>https://QubitPi.github.io/graphql-java-page/blog</link>
         <description>GraphQL Java Blog</description>
-        <lastBuildDate>Wed, 14 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GraphQL Java release policy]]></title>
+            <link>https://QubitPi.github.io/graphql-java-page/blog/release-policy</link>
+            <guid>release-policy</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.]]></description>
+            <content:encoded><![CDATA[<p>We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.</p><h2>General release schedule</h2><p>Going forward, we plan to have 4 releases every year, approximately one per quarter. We will alternate between releases containing breaking changes, and releases containing features and bugfixes (without breaking changes).</p><p>For example: our next release 20.1 will be in late March 2023, and this will be a feature and bugfix release without breaking changes. Therefore, we’re going to retain Java 8 in the 20.1 release. Our subsequent quarterly release will be around early July 2023 and will contain breaking changes, including upgrading to Java 11.</p><h2>Security backports</h2><p>We will backport critical bugfixes and security fixes for versions dating back 18 months (or roughly 6 versions). These fixes will be backported depending on severity and demand. As security fixes are time sensitive, we will release them on demand instead of waiting for the next quarterly release date.</p><h2>Bugfix backports</h2><p>We will backport important bug fixes at most 12 months (or roughly 4 versions). These fixes will be backported depending on the severity of the bug and demand.</p><h2>Deprecations</h2><p>When code is deprecated, we will wait at least 12 months before removing it (or roughly 4 versions).</p><h2>Version numbering</h2><p>We will continue to use <code>major.minor</code> version numbering.</p><p>A minor version can include bug fixes and features, but not breaking changes. A major version can include breaking changes.</p><h2>Allowing for policy changes</h2><p>The aim of this release policy to give the community a better indication of release dates, what is contained in releases, and when fixes will be backported. However, we may make a pragmatic decision to diverge from this policy when required. For example, a major and urgent breaking change could result in two breaking change releases in a row. If we diverge from this release policy, we’ll make it clear in the release notes.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[GraphQL Java will require Java 11]]></title>
             <link>https://QubitPi.github.io/graphql-java-page/blog/java-11-required</link>
