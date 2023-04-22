@@ -56,8 +56,8 @@ match an ``invoice`` field with child fields that start with ``customer``.  Each
 a file system path.
 
 There are methods that allow you to get more detailed information about the fields in the selection set.  For example
-if you are using [Relay](https://facebook.github.io/relay/docs/en/graphql-server-specification.html) often you want to know what fields have
-been request in the ``Connection`` section of the query.
+if you are using [Relay](https://qubitpi.github.io/relay/) often you want to know what fields have been request in the 
+``Connection`` section of the query.
 
 So given a query like:
 

@@ -37,7 +37,7 @@ Each graphql field type has a ``graphql.schema.DataFetcher`` associated with it.
 type of code *resolvers*.
 
 Often you can rely on ``graphql.schema.PropertyDataFetcher`` to examine Java POJO objects to
-provide field values from them.  If your don't specify a data fetcher on a field, this is what will be used.
+provide field values from them.  If you don't specify a data fetcher on a field, this is what will be used.
 
 However you will need to fetch your top level domain objects via your own custom data fetchers.  This might involve making
 a database call or contacting another system over HTTP say.
@@ -60,7 +60,7 @@ Each ``DataFetcher`` is passed a ``graphql.schema.DataFetchingEnvironment`` obje
 arguments have been supplied to the field and other information such as the field's parent object, the query root object or the query
 context object.
 
-In the above example, the execution will wait for the data fetcher to return before moving on.  You can make execution of
+In the example above, the execution will wait for the data fetcher to return before moving on.  You can make execution of
 the ``DataFetcher`` asynchronous by returning a ``CompletionStage`` to data, that is explained more further down this page.
 
 ## Exceptions while fetching data
