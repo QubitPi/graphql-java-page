@@ -11,7 +11,7 @@ The leaf nodes of the GraphQL type system are called scalars. Once you reach a s
 cannot descend any further into the type hierarchy. A scalar type is meant to represent
 an indivisible value.
 
-The [GraphQL specification](https://spec.graphql.org/draft/#sec-Scalars) states that all implementations must have the following scalar types:
+The [GraphQL specification](https://qubitpi.github.io/graphql-spec/draft/#sec-Scalars) states that all implementations must have the following scalar types:
 
 * String aka ``GraphQLString`` - A UTF‐8 character sequence.
 * Boolean aka ``GraphQLBoolean`` - true or false.
