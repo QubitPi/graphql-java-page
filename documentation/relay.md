@@ -5,7 +5,7 @@ description: graphql-java has support for Relay
 ---
 # Relay Support
 
-Very basic support for [Relay](https://github.com/facebook/relay) is included.
+Very basic support for [Relay](https://qubitpi.github.io/relay/) is included.
 
 Please look at [https://github.com/graphql-java/todomvc-relay-java](https://github.com/graphql-java/todomvc-relay-java) for a full example project.
 
