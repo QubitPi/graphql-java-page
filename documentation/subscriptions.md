@@ -145,5 +145,5 @@ DataFetcher<Publisher<StockInfo>> publisherDataFetcher = new DataFetcher<Publish
 };
 ```
 
-Now the exact details of how you get that stream of events is up to you and you're reactive code.  graphql-java
+Now the exact details of how you get that stream of events is up to you and your reactive code.  graphql-java
 gives you a way to map the graphql query fields over that stream of objects just like a standard graphql query.
