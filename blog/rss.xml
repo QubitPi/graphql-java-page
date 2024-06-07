@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>GraphQL Java Blog</title>
-        <link>https://QubitPi.github.io/graphql-java-page/blog</link>
+        <link>https://graphql-java.qubitpi.org/blog</link>
         <description>GraphQL Java Blog</description>
         <lastBuildDate>Thu, 18 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Version 22 released]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/v22-released</link>
+            <link>https://graphql-java.qubitpi.org/blog/v22-released</link>
             <guid>v22-released</guid>
             <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[We are thrilled to announce the release of graphql-java v22.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.]]></description>
@@ -17,7 +17,7 @@
         </item>
         <item>
             <title><![CDATA[Version 21 released]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/v21-released</link>
+            <link>https://graphql-java.qubitpi.org/blog/v21-released</link>
             <guid>v21-released</guid>
             <pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[We are pleased to announce the release of graphql-java v21.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.]]></description>
@@ -25,7 +25,7 @@
         </item>
         <item>
             <title><![CDATA[GraphQL Java release policy]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/release-policy</link>
+            <link>https://graphql-java.qubitpi.org/blog/release-policy</link>
             <guid>release-policy</guid>
             <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.]]></description>
@@ -33,7 +33,7 @@
         </item>
         <item>
             <title><![CDATA[GraphQL Java will require Java 11]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/java-11-required</link>
+            <link>https://graphql-java.qubitpi.org/blog/java-11-required</link>
             <guid>java-11-required</guid>
             <pubDate>Wed, 14 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[GraphQL Java will require Java 11 as a minimum Java version, starting from version 21.]]></description>
@@ -43,7 +43,7 @@ than until end of 2023.</p><p>Please discuss and leave feedback <a href="https:/
         </item>
         <item>
             <title><![CDATA[Version 20 released]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/version-20-released</link>
+            <link>https://graphql-java.qubitpi.org/blog/version-20-released</link>
             <guid>version-20-released</guid>
             <pubDate>Wed, 07 Dec 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[We are pleased to announce the release of graphql-java 20.0!]]></description>
@@ -51,7 +51,7 @@ than until end of 2023.</p><p>Please discuss and leave feedback <a href="https:/
         </item>
         <item>
             <title><![CDATA[Spring for GraphQL is the recommended Spring integration]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/spring-for-graphql</link>
+            <link>https://graphql-java.qubitpi.org/blog/spring-for-graphql</link>
             <guid>spring-for-graphql</guid>
             <pubDate>Tue, 20 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[If you are building a GraphQL application with Spring, we recommend using the official Spring for GraphQL integration. This integration is a collaboration between the Spring and GraphQL Java teams, and is maintained by the Spring team. In May 2022, Spring for GraphQL 1.0 GA was released.]]></description>
@@ -59,7 +59,7 @@ than until end of 2023.</p><p>Please discuss and leave feedback <a href="https:/
         </item>
         <item>
             <title><![CDATA[GraphQL Java 17 released and an update about LTS]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/17-released-and-lts</link>
+            <link>https://graphql-java.qubitpi.org/blog/17-released-and-lts</link>
             <guid>17-released-and-lts</guid>
             <pubDate>Tue, 03 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[We are happy to announce the availability of GraphQL Java 17.0.]]></description>
@@ -73,7 +73,7 @@ hello at graphql-java dot com.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[GraphQL spec releases are not important]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/spec-releases-are-not-important</link>
+            <link>https://graphql-java.qubitpi.org/blog/spec-releases-are-not-important</link>
             <guid>spec-releases-are-not-important</guid>
             <pubDate>Fri, 12 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Every once in a while somebody asks which version of the GraphQL spec]]></description>
@@ -93,7 +93,7 @@ I hope by now it is clear why this question is probably not really helpful.</p><
         </item>
         <item>
             <title><![CDATA[GraphQL Java and Threads]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/threads</link>
+            <link>https://graphql-java.qubitpi.org/blog/threads</link>
             <guid>threads</guid>
             <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[We follow a fundamental rule in GraphQL Java regarding Threads: GraphQL Java never creates]]></description>
@@ -155,7 +155,7 @@ could be. Normally only load tests in production like environments can show the 
         </item>
         <item>
             <title><![CDATA[Building efficient data fetchers by looking ahead]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/deep-dive-data-fetcher-results</link>
+            <link>https://graphql-java.qubitpi.org/blog/deep-dive-data-fetcher-results</link>
             <guid>deep-dive-data-fetcher-results</guid>
             <pubDate>Thu, 11 Apr 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we are looking into the graphql.schema.DataFetchingFieldSelectionSet and graphql.execution.DataFetcherResult objects as means]]></description>
@@ -234,7 +234,7 @@ return DataFetcherResult.newResult()
         </item>
         <item>
             <title><![CDATA[GraphQL Deep Dive Part 1 - merged fields]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/deep-dive-merged-fields</link>
+            <link>https://graphql-java.qubitpi.org/blog/deep-dive-merged-fields</link>
             <guid>deep-dive-merged-fields</guid>
             <pubDate>Tue, 22 Jan 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the new series "GraphQL deep dive" where we will explore advanced or unknown GraphQL topics. The plan is to discuss things mostly in a language and implementation neutral way, even if it is hosted on graphql-java.com.]]></description>
@@ -353,7 +353,7 @@ fragment mergeIdenticalFieldsWithIdenticalValues on Dog {
         </item>
         <item>
             <title><![CDATA[First release of GraphQL Java Spring]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/graphql-java-spring-support</link>
+            <link>https://graphql-java.qubitpi.org/blog/graphql-java-spring-support</link>
             <guid>graphql-java-spring-support</guid>
             <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring for GraphQL is the official and current Spring integration. The integration is a collaboration between the Spring and GraphQL Java teams, and is maintained by the Spring team.]]></description>
@@ -365,7 +365,7 @@ community: please open a <a href="https://github.com/graphql-java/graphql-java-s
         </item>
         <item>
             <title><![CDATA[Introducing graphql-java-extended-scalars]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/introducing-extended-scalars</link>
+            <link>https://graphql-java.qubitpi.org/blog/introducing-extended-scalars</link>
             <guid>introducing-extended-scalars</guid>
             <pubDate>Sat, 24 Nov 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[One of the most common questions we get in GraphQL Java land is "can we have a datetime scalar".]]></description>
@@ -374,7 +374,7 @@ up later as an officially specified type.</p><p>But it really is a badly needed 
         </item>
         <item>
             <title><![CDATA[GraphQL Java aims to be used directly]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/graphql-java-aims-to-be-used-directly</link>
+            <link>https://graphql-java.qubitpi.org/blog/graphql-java-aims-to-be-used-directly</link>
             <guid>graphql-java-aims-to-be-used-directly</guid>
             <pubDate>Sat, 10 Nov 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[There seems to be a common misconception about GraphQL Java: that you should not use it directly,]]></description>
@@ -398,7 +398,7 @@ the core project in providing comprehensive Spring (Boot) support</li></ol><p>Ch
         </item>
         <item>
             <title><![CDATA[About breaking changes and Long-term support]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/breaking-changes-and-lts</link>
+            <link>https://graphql-java.qubitpi.org/blog/breaking-changes-and-lts</link>
             <guid>breaking-changes-and-lts</guid>
             <pubDate>Sat, 20 Oct 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[We are releasing new major versions of GraphQL Java roughly every 2 months. They are major versions because we break the API in it. We do it regularly and we prioritize clean code including good naming and design very high. Actually higher than API stability.]]></description>
@@ -406,7 +406,7 @@ the core project in providing comprehensive Spring (Boot) support</li></ol><p>Ch
         </item>
         <item>
             <title><![CDATA[Moving to spectrum and new documentation home]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/spectrum-and-new-doc</link>
+            <link>https://graphql-java.qubitpi.org/blog/spectrum-and-new-doc</link>
             <guid>spectrum-and-new-doc</guid>
             <pubDate>Wed, 10 Oct 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Update: we now use GitHub Discussions on the GitHub repository.]]></description>
@@ -416,7 +416,7 @@ Update: we now use GitHub Discussions on the <a href="https://github.com/graphql
         </item>
         <item>
             <title><![CDATA[Moving projects out of the GraphQL Java org]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/moving-projects</link>
+            <link>https://graphql-java.qubitpi.org/blog/moving-projects</link>
             <guid>moving-projects</guid>
             <pubDate>Tue, 02 Oct 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Soon after I started started GraphQL Java (almost 3 1/2 years ago) other people started building libraries on top of it. I was happy to welcome them into the GraphQL Java Github organization, because it was great to see the GraphQL Java ecosystem grew and centralizing these projects into one org made sense.]]></description>
@@ -424,7 +424,7 @@ Update: we now use GitHub Discussions on the <a href="https://github.com/graphql
         </item>
         <item>
             <title><![CDATA[Welcome to the new GraphQL Java homepage]]></title>
-            <link>https://QubitPi.github.io/graphql-java-page/blog/welcome-to-graphql-java</link>
+            <link>https://graphql-java.qubitpi.org/blog/welcome-to-graphql-java</link>
             <guid>welcome-to-graphql-java</guid>
             <pubDate>Mon, 01 Oct 2018 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the new GraphQL Java Homepage: the central page about everything GraphQL Java.]]></description>
