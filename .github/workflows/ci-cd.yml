@@ -1,18 +1,15 @@
+# Copyright (c) 2024 Jiaqi Liu
 ---
-name: Release
+name: CI/CD
 
 "on":
+  pull_request:
   push:
     branches:
       - master
 
 jobs:
-  test:
-    uses: ./.github/workflows/test.yml
-    secrets: inherit
-
   deploy-documentation:
-    needs: test
     name: Deploy Documentation to GitHub Pages
     runs-on: ubuntu-latest
     steps:
@@ -26,10 +23,13 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build documentation
         run: yarn build
+      - name: Load CNAME
+        run: cp CNAME build
       - name: Deploy to GitHub Pages
+        # if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           user_name: QubitPi
-          user_email: jack20191124@proton.me
+          user_email: jack20220723@gmail.com
