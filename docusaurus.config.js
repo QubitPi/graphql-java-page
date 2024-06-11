@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'GraphQL Java',
   tagline: 'The Java implementation of GraphQL',
-  url: 'https://QubitPi.github.io/',
-  baseUrl: '/graphql-java-page/',
+  url: 'https://graphql-java.qubitpi.org/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
