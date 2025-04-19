@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://graphql-java.qubitpi.org/blog</id>
     <title>GraphQL Java Blog</title>
-    <updated>2024-04-18T00:00:00.000Z</updated>
+    <updated>2025-04-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://graphql-java.qubitpi.org/blog"/>
     <subtitle>GraphQL Java Blog</subtitle>
     <icon>https://graphql-java.qubitpi.org/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Version 23 released]]></title>
+        <id>v23-released</id>
+        <link href="https://graphql-java.qubitpi.org/blog/v23-released"/>
+        <updated>2025-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce the release of graphql-java v23.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.]]></summary>
+        <content type="html"><![CDATA[<p>We are pleased to announce the release of graphql-java v23.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.</p><p>This is a <strong>breaking change</strong> release. Included are performance improvements and features.</p><p>For the full details, please see the release notes on <a href="https://github.com/graphql-java/graphql-java/releases/tag/v23.0">GitHub</a>.</p>]]></content>
+        <author>
+            <name>Donna Zhou</name>
+            <uri>https://github.com/dondonz</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GraphQL Java is a CVE Numbering Authority]]></title>
+        <id>cna</id>
+        <link href="https://graphql-java.qubitpi.org/blog/cna"/>
+        <updated>2024-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are please to announce GraphQL Java is now the CVE Numbering Authority (CNA) for GraphQL Java, Java DataLoader, GraphQL Java Extended Scalars, and GraphQL Java Extended Validation.]]></summary>
+        <content type="html"><![CDATA[<p>We are please to announce GraphQL Java is now the CVE Numbering Authority (CNA) for GraphQL Java, Java DataLoader, GraphQL Java Extended Scalars, and GraphQL Java Extended Validation.</p><p>See the CVE.org press release: <a href="https://www.cve.org/Media/News/item/news/2024/12/03/GraphQL-Java-Added-as-CNA">https://www.cve.org/Media/News/item/news/2024/12/03/GraphQL-Java-Added-as-CNA</a></p>]]></content>
+        <author>
+            <name>Donna Zhou</name>
+            <uri>https://github.com/dondonz</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automated performance testing for GraphQL Java]]></title>
+        <id>performance</id>
+        <link href="https://graphql-java.qubitpi.org/blog/performance"/>
+        <updated>2024-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GraphQL Java has become a mature and widely adopted library over the past 9.5 years.]]></summary>
+        <content type="html"><![CDATA[<p>GraphQL Java has become a mature and widely adopted library over the past 9.5 years.
+And while we continue to maintain, improve and add features, we don&#x27;t expect revolutionary changes to the core of the library.</p><p>As side effect of this maturity it became clear over the least years, that performance is a key aspect that users are interested in.
+Especially in larger scale applications performance can have a huge impact on operational costs and user experience.</p><p>In GraphQL Java we leverage <a href="https://github.com/openjdk/jmh">JMH aka Java Microbenchmark Harness</a> to  measure and compare different performance aspects.</p><p>Historically, performance testing was done manually by running JMH benchmarks on a local machine.</p><p>This comes with the obvious flaw that it&#x27;s not reproducible over time and across different machines. A benchmark run on one developer&#x27;s machine is not
+comparable to a run on another developer&#x27;s machine (or often even the same machine months later).</p><p>We are very happy to share that we have now an automated performance testing setup in place to overcome these limitations by running
+the benchmarks in an isolated cloud environment.</p><p>Currently, it runs on every commit to the <code>master</code> branch and the results are stored in the<br/>
+<a href="https://github.com/graphql-java/graphql-java/tree/master/performance-results">performance results folder</a>.
+You can visualize and compare results with the <a href="https://jmh.morethan.io/">JMH Visualizer tool</a>, a free tool which runs in the browser.
+Our goal is to provide clear and reproducible performance improvements over time while preventing any regressions.</p><p>This work is sponsored and made possible by <a href="https://www.atlassian.com/">Atlassian</a> and we are very grateful for their support.</p>]]></content>
+        <author>
+            <name>Andreas Marek</name>
+            <uri>https://github.com/andimarek</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Version 22 released]]></title>
         <id>v22-released</id>
@@ -37,7 +80,10 @@
         <link href="https://graphql-java.qubitpi.org/blog/release-policy"/>
         <updated>2023-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.]]></summary>
-        <content type="html"><![CDATA[<p>We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.</p><h2>General release schedule</h2><p>Going forward, we plan to have 4 releases every year, approximately one per quarter. We will alternate between releases containing breaking changes, and releases containing features and bugfixes (without breaking changes).</p><p>For example: our next release 20.1 will be in late March 2023, and this will be a feature and bugfix release without breaking changes. Therefore, we’re going to retain Java 8 in the 20.1 release. Our subsequent quarterly release will be around early July 2023 and will contain breaking changes, including upgrading to Java 11.</p><h2>Security backports</h2><p>We will backport critical bugfixes and security fixes for versions dating back 18 months (or roughly 6 versions). These fixes will be backported depending on severity and demand. As security fixes are time sensitive, we will release them on demand instead of waiting for the next quarterly release date.</p><h2>Bugfix backports</h2><p>We will backport important bug fixes at most 12 months (or roughly 4 versions). These fixes will be backported depending on the severity of the bug and demand.</p><h2>Deprecations</h2><p>When code is deprecated, we will wait at least 12 months before removing it (or roughly 4 versions).</p><h2>Version numbering</h2><p>We will continue to use <code>major.minor</code> version numbering.</p><p>A minor version can include bug fixes and features, but not breaking changes. A major version can include breaking changes.</p><h2>Allowing for policy changes</h2><p>The aim of this release policy to give the community a better indication of release dates, what is contained in releases, and when fixes will be backported. However, we may make a pragmatic decision to diverge from this policy when required. For example, a major and urgent breaking change could result in two breaking change releases in a row. If we diverge from this release policy, we’ll make it clear in the release notes.</p>]]></content>
+        <content type="html"><![CDATA[<p>We’re formalising our release schedule to give the community a better idea of when to expect releases, what will be contained within them, and when important fixes will be backported.</p><h2>General release schedule</h2><p>:::caution
+Since this blog post was published, we changed our release schedule from 4 times to 3 times per year.
+:::
+Going forward, we plan to have 3 releases every year. We will alternate between releases containing breaking changes, and releases containing features and bugfixes (without breaking changes).</p><p>For example: our next release 20.1 will be in late March 2023, and this will be a feature and bugfix release without breaking changes. Therefore, we’re going to retain Java 8 in the 20.1 release. Our subsequent release will be around early July 2023 and will contain breaking changes, including upgrading to Java 11.</p><h2>Security backports</h2><p>We will backport critical bugfixes and security fixes for versions dating back 18 months. These fixes will be backported depending on severity and demand. As security fixes are time sensitive, we will release them on demand instead of waiting for the next release date.</p><h2>Bugfix backports</h2><p>We will backport important bug fixes at most 12 months. These fixes will be backported depending on the severity of the bug and demand.</p><h2>Deprecations</h2><p>When code is deprecated, we will wait at least 12 months before removing it.</p><h2>Version numbering</h2><p>We will continue to use <code>major.minor</code> version numbering.</p><p>A minor version can include bug fixes and features, but not breaking changes. A major version can include breaking changes.</p><h2>Allowing for policy changes</h2><p>The aim of this release policy to give the community a better indication of release dates, what is contained in releases, and when fixes will be backported. However, we may make a pragmatic decision to diverge from this policy when required. For example, a major and urgent breaking change could result in two breaking change releases in a row. If we diverge from this release policy, we’ll make it clear in the release notes.</p>]]></content>
         <author>
             <name>Donna Zhou</name>
             <uri>https://github.com/dondonz</uri>
