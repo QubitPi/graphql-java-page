@@ -2,18 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://graphql-java.qubitpi.org/blog</id>
     <title>GraphQL Java Blog</title>
-    <updated>2025-04-12T00:00:00.000Z</updated>
+    <updated>2025-05-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://graphql-java.qubitpi.org/blog"/>
     <subtitle>GraphQL Java Blog</subtitle>
     <icon>https://graphql-java.qubitpi.org/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Version 24 released]]></title>
+        <id>v24-released</id>
+        <link href="https://graphql-java.qubitpi.org/blog/v24-released"/>
+        <updated>2025-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are pleased to announce the release of graphql-java v24.0.]]></summary>
+        <content type="html"><![CDATA[<p>We are pleased to announce the release of graphql-java v24.0.</p><p>This release is an unexpected breaking change release. It was made to help propagate a fix in the DataLoader library.</p><p>We consider v23.x poisoned and we don&#x27;t recommend you use it because of the latent bug explained in the release notes on <a href="https://github.com/graphql-java/graphql-java/releases/tag/v24.0">GitHub</a>.</p><p>Going forward we will not be supporting v23.x, instead please skip this series and use v24.x going forward.</p>]]></content>
+        <author>
+            <name>Donna Zhou</name>
+            <uri>https://github.com/dondonz</uri>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Version 23 released]]></title>
         <id>v23-released</id>
         <link href="https://graphql-java.qubitpi.org/blog/v23-released"/>
         <updated>2025-04-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are pleased to announce the release of graphql-java v23.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.]]></summary>
-        <content type="html"><![CDATA[<p>We are pleased to announce the release of graphql-java v23.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.</p><p>This is a <strong>breaking change</strong> release. Included are performance improvements and features.</p><p>For the full details, please see the release notes on <a href="https://github.com/graphql-java/graphql-java/releases/tag/v23.0">GitHub</a>.</p>]]></content>
+        <summary type="html"><![CDATA[Update: please use the v24 series of releases instead of v23 releases. We have made a clearer breaking change in Java DataLoader, thus we will discontinue v23.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Update: please use the v24 series of releases instead of v23 releases. We have made a clearer breaking change in Java DataLoader, thus we will discontinue v23.</strong></p><p>We are pleased to announce the release of graphql-java v23.0! Thanks to everyone in the community who contributed to the release, whether that was code, helping to report issues, or participating in discussions.</p><p>This is a <strong>breaking change</strong> release. Included are performance improvements and features.</p><p>For the full details, please see the release notes on <a href="https://github.com/graphql-java/graphql-java/releases/tag/v23.0">GitHub</a>.</p>]]></content>
         <author>
             <name>Donna Zhou</name>
             <uri>https://github.com/dondonz</uri>
